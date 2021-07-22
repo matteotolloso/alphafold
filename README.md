@@ -1,4 +1,4 @@
-![header](imgs/header.jpg)
+![header](header.jpg)
 
 # AlphaFold Embeddings
 Changed return_representations=True, located in alphafold/model/modules.py 
