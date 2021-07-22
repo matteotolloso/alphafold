@@ -1,5 +1,17 @@
 ![header](imgs/header.jpg)
 
+# AlphaFold Embeddings
+Changed return_representations=True, located in alphafold/model/modules.py 
+
+It returns learned embeddings from the model, then using the jupyter notebook provided by @sokrypton, https://github.com/sokrypton/ColabFold
+
+Edit the git link in the notebook to https://github.com/xinformatics/alphafold_embeddings.git , to install the edited library
+
+See the Alphafold_embeddings.ipynb for the actual jupyter notebook
+
+
+
+# Original Alphafold documentation
 # AlphaFold
 
 This package provides an implementation of the inference pipeline of AlphaFold
