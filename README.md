@@ -7,9 +7,28 @@ It returns learned embeddings from the model, then using the jupyter notebook pr
 
 Edit the git link in the notebook to https://github.com/xinformatics/alphafold_embeddings.git , to install the edited library
 
-See the Alphafold_embeddings.ipynb for the actual jupyter notebook
+See the Representations_AlphaFold2PredictStructure.ipynb notebook for more details
+
+https://github.com/xinformatics/alphafold_embeddings/blob/main/Representations_AlphaFold2PredictStructure.ipynb
+
+In this jupyter notebook
+
+prediction_result = model_runner.predict(processed_feature_dict)
+
+gives 'prediction_result' as a dictionary with a key as 'representations'
+
+prediction_result.keys()
+dict_keys(['distogram', 'experimentally_resolved', 'masked_msa', 'predicted_lddt', 'representations', 'structure_module', 'plddt'])
+
+this returns a nested dictionary and then
+
+prediction_result['representations'].keys() outputs
+dict_keys(['msa', 'msa_first_row', 'pair', 'single', 'structure_module'])
+
+Outputs the embeddings
 
 
+#########################################################################
 
 # Original Alphafold documentation
 # AlphaFold
