@@ -3,13 +3,13 @@
 # AlphaFold Embeddings
 Changed return_representations=True, located in alphafold/model/modules.py 
 
-It returns learned embeddings from the model, then using the jupyter notebook provided by @sokrypton, https://github.com/sokrypton/ColabFold
+It returns learned embeddings from the model, then using the jupyter notebook provided by @sokrypton, [ColabFold](https://github.com/sokrypton/ColabFold)
 
-Edit the git link in the notebook to https://github.com/xinformatics/alphafold_embeddings.git , to install the edited library
+Edit the git link in the notebook to [GitHub Link](https://github.com/xinformatics/alphafold_embeddings.git) , to install the edited library
 
 See the following notebook for more details
 
-AlphaFold Notebook (https://github.com/xinformatics/alphafold/blob/main/Representations_AlphaFold2_v3.ipynb)
+[AlphaFold Embedding Notebook](https://github.com/xinformatics/alphafold/blob/main/Representations_AlphaFold2_v3.ipynb)
 
 In this jupyter notebook
 
@@ -26,6 +26,8 @@ prediction_result['representations'].keys() outputs
 dict_keys(['msa', 'msa_first_row', 'pair', 'single', 'structure_module'])
 
 Outputs the embeddings
+
+Then I have pickle dumped the representations. 
 
 
 #########################################################################
