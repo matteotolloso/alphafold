@@ -7,9 +7,9 @@ It returns learned embeddings from the model, then using the jupyter notebook pr
 
 Edit the git link in the notebook to https://github.com/xinformatics/alphafold_embeddings.git , to install the edited library
 
-See the Representations_AlphaFold2PredictStructure.ipynb notebook for more details
+See the following notebook for more details
 
-https://github.com/xinformatics/alphafold_embeddings/blob/main/Representations_AlphaFold2PredictStructure.ipynb
+AlphaFold Notebook (https://github.com/xinformatics/alphafold/blob/main/Representations_AlphaFold2_v3.ipynb)
 
 In this jupyter notebook
 
