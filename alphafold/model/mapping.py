@@ -19,6 +19,7 @@ import functools
 from typing import Any, Callable, Optional, Sequence, Union
 
 import haiku as hk
+hk.vmap.require_split_rng = False
 import jax
 import jax.numpy as jnp
 
