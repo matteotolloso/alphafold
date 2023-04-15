@@ -15,6 +15,7 @@
 """Constants used in AlphaFold."""
 
 import collections
+collections.Iterable = collections.abc.Iterable
 import functools
 from typing import Mapping, List, Tuple
 

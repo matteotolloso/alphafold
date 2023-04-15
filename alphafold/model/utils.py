@@ -15,6 +15,7 @@
 """A collection of JAX utility functions for use in protein folding."""
 
 import collections
+collections.Iterable = collections.abc.Iterable
 import numbers
 from typing import Mapping
 

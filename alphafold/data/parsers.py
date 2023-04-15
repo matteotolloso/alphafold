@@ -14,6 +14,7 @@
 
 """Functions for parsing various file formats."""
 import collections
+collections.Iterable = collections.abc.Iterable
 import re
 import string
 from typing import Iterable, List, Optional, Sequence, Tuple, Dict

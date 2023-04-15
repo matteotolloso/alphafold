@@ -15,6 +15,7 @@
 """Function to stack repeats of a layer function without shared parameters."""
 
 import collections
+collections.Iterable = collections.abc.Iterable
 import contextlib
 import functools
 import inspect

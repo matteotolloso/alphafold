@@ -32,6 +32,7 @@ unintended use of these cores on both GPUs and TPUs.
 """
 
 import collections
+collections.Iterable = collections.abc.Iterable
 from typing import List
 
 import jax.numpy as jnp

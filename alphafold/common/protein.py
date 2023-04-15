@@ -184,9 +184,9 @@ def to_pdb(prot: Protein) -> str:
       f'{chain_end:<6}{atom_index:>5}      {res_1to3(aatype[-1]):>3} '
       f'{chain_id:>1}{residue_index[-1]:>4}')
   pdb_lines.append(chain_termination_line)
-  pdb_lines.append('ENDMDL')
+  
 
-  pdb_lines.append('END')
+  
   pdb_lines.append('')
   return '\n'.join(pdb_lines)
 

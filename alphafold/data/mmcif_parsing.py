@@ -14,6 +14,7 @@
 
 """Parses the mmCIF file format."""
 import collections
+collections.Iterable = collections.abc.Iterable
 import io
 from typing import Any, Mapping, Optional, Sequence, Tuple
 
