@@ -1,21 +1,25 @@
-
+from Bio.Seq import Seq
+import json
+import os
 
 
 
 
 # ********* SETTINGS **********
 
-FILE_PATH = "./proteins.json" # file containing the origina dataset. A key will be added on the dict and the file will be overwrited
+# FILE_PATH = "./dataset/NEIS2157.json" # file containing the origina dataset. A key will be added on the dict and the file will be overwrited
+FILE_PATH = "./dataset/globins.json"
+# FILE_PATH = "./dataset/proteins.json"
+
+
 ANNOTATION_KEY = "alphafold"
 
-#os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 
 # ******************************
 
-from Bio.Seq import Seq
-import json
-import os
+
 
 def predict(jobname, query_sequence):
     import os
@@ -335,11 +339,12 @@ def main():
         if set(seq_string).issubset(set(["A", "C", "G", "T"])):
             seq_string = str(Seq(seq_string).translate(stop_symbol=""))
             print("The nucleotides sequence for ", id, " has been translated")
-        
-        print(seq_string)
-        print(len(seq_string))
+
+        print("Predicting the embedding for ", id, "...")
 
         embed = predict(query_sequence=seq_string, jobname=id)
+
+        print('done')
         
         seq_dict[id][ANNOTATION_KEY] = embed.tolist()
         
