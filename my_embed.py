@@ -10,25 +10,27 @@ import multiprocessing
 
 # FILE_PATH = "./dataset/NEIS2157.json" # file containing the origina dataset. A key will be added on the dict and the file will be overwrited
 # FILE_PATH = "./dataset/globins.json"
-FILE_PATH = "./dataset/proteins.json"
+FILE_PATH = "./dataset/test.json"
 
 
 ANNOTATION_KEY = "alphafold"
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+# os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 
 # ******************************
 
 
 
-def predict(jobname, query_sequence, queue):
+def predict(id, query_sequence):
+   
+    jobname = id
+   
+    print("Predicting", jobname)	
     import os
     import os.path
     import re
     import hashlib
-    
-    os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
     def add_hash(x,y):
       return x+"_"+hashlib.sha1(y.encode()).hexdigest()[:5]
@@ -308,64 +310,66 @@ def predict(jobname, query_sequence, queue):
                              model_params=model_params, use_model=use_model,
                              do_relax=use_amber)
     
-    queue.put(prediction_result['representations']['single'])
-    print("element added to queue")
+    embed = prediction_result['representations']['single']
+
+    with open(FILE_PATH, "r") as file:   # load the list of seqrecords alreay annotated with the others embeddings
+        seq_dict = json.load(file)
+        seq_dict[id][ANNOTATION_KEY] = embed.tolist()
+    
+    with open(FILE_PATH, "w") as file:   # save the list of seqrecords alreay annotated with the others embeddings
+        json.dump(seq_dict, file, indent=4)
+
+    print("element added")
     return
 
 
 
 
 def main():
+    # remove all the file in the tmpdata folder
+	for file in os.listdir("./tmpdata"):
+		os.remove(os.path.join("./tmpdata", file))
 
     # if the folder params is not present, download the params
-    if not os.path.isdir("params"):
-        raise Exception("The folder params is not present. Please download the params and put them in the folder params")
-        """ 
-        !sed -i "s/pdb_lines.append('END')//" ./alphafold/common/protein.py
-        !sed -i "s/pdb_lines.append('ENDMDL')//" ./alphafold/common/protein.py
-        !wget -qnc https://storage.googleapis.com/alphafold/alphafold_params_2021-07-14.tar
-        !mkdir params
-        !tar -xf alphafold_params_2021-07-14.tar -C params/
-        !rm alphafold_params_2021-07-14.tar
-        """
+	if not os.path.isdir("params"):
+		raise Exception("The folder params is not present. Please download the params and put them in the folder params")
+		""" 
+		!sed -i "s/pdb_lines.append('END')//" ./alphafold/common/protein.py
+		!sed -i "s/pdb_lines.append('ENDMDL')//" ./alphafold/common/protein.py
+		!wget -qnc https://storage.googleapis.com/alphafold/alphafold_params_2021-07-14.tar
+		!mkdir params
+		!tar -xf alphafold_params_2021-07-14.tar -C params/
+		!rm alphafold_params_2021-07-14.tar
+		"""
 
-    seq_dict = []
+	seq_dict = []
     
-    with open(FILE_PATH, "r") as file:   # load the list of seqrecords alreay annotated with the others embeddings
-      seq_dict = json.load(file)
+	with open(FILE_PATH, "r") as file:   # load the list of seqrecords alreay annotated with the others embeddings
+		seq_dict = json.load(file)
 
+	
+	for id in seq_dict.keys():
+		seq_string = seq_dict[id]["sequence"]
 
-    for id in seq_dict.keys():
-      seq_string = seq_dict[id]["sequence"]
+		seq_string = seq_string.replace(" ", "").replace("\n", "")
 
-      seq_string = seq_string.replace(" ", "").replace("\n", "")
+		if set(seq_string).issubset(set(["A", "C", "G", "T"])):
+			seq_string = str(Seq(seq_string).translate(stop_symbol=""))
+			print("The nucleotides sequence for ", id, " has been translated")
 
-      if set(seq_string).issubset(set(["A", "C", "G", "T"])):
-          seq_string = str(Seq(seq_string).translate(stop_symbol=""))
-          print("The nucleotides sequence for ", id, " has been translated")
+		print("Predicting the embedding for ", id, "...")
 
-      print("Predicting the embedding for ", id, "...")
+		# the code run in a different process to avoid memory leaks
 
-      # the code run in a different process to avoid memory leaks
+		p = multiprocessing.Process(target=predict, args=(id, seq_string, ))
+		p.start()
 
-      queue = multiprocessing.Queue()
+		p.join()
 
-      p = multiprocessing.Process(target=predict, args=(id, seq_string, queue, ))
-      p.start()
+		print('done')
 
-      embed = queue.get()
-      
-      p.kill()
-      del p
-      del queue
-
-      print('done')
-      
-      seq_dict[id][ANNOTATION_KEY] = embed.tolist()
+		
         
-        
-    with open(FILE_PATH, "w") as file:
-        json.dump(seq_dict, file, indent=4)
 
 
 if __name__ == "__main__":
