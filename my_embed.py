@@ -1,6 +1,7 @@
 from Bio.Seq import Seq
 import json
 import os
+import multiprocessing
 
 
 
@@ -21,11 +22,13 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 
 
-def predict(jobname, query_sequence):
+def predict(jobname, query_sequence, queue):
     import os
     import os.path
     import re
     import hashlib
+    
+    os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
     def add_hash(x,y):
       return x+"_"+hashlib.sha1(y.encode()).hexdigest()[:5]
@@ -112,7 +115,7 @@ def predict(jobname, query_sequence):
 
       #warnings.filterwarnings('ignore')
       logging.set_verbosity("error")
-      os.environ['TF_CPP_MIN_LOG_LEVEL'] = '0'
+      #os.environ['TF_CPP_MIN_LOG_LEVEL'] = '0'	# advanced logging
       #tf.get_logger().setLevel('ERROR')
 
       import sys
@@ -305,7 +308,9 @@ def predict(jobname, query_sequence):
                              model_params=model_params, use_model=use_model,
                              do_relax=use_amber)
     
-    return prediction_result['representations']['single']
+    queue.put(prediction_result['representations']['single'])
+    print("element added to queue")
+    return
 
 
 
@@ -327,25 +332,36 @@ def main():
     seq_dict = []
     
     with open(FILE_PATH, "r") as file:   # load the list of seqrecords alreay annotated with the others embeddings
-        seq_dict = json.load(file)
+      seq_dict = json.load(file)
 
 
     for id in seq_dict.keys():
-        seq_string = seq_dict[id]["sequence"]
+      seq_string = seq_dict[id]["sequence"]
 
-        seq_string = seq_string.replace(" ", "").replace("\n", "")
+      seq_string = seq_string.replace(" ", "").replace("\n", "")
 
-        if set(seq_string).issubset(set(["A", "C", "G", "T"])):
-            seq_string = str(Seq(seq_string).translate(stop_symbol=""))
-            print("The nucleotides sequence for ", id, " has been translated")
+      if set(seq_string).issubset(set(["A", "C", "G", "T"])):
+          seq_string = str(Seq(seq_string).translate(stop_symbol=""))
+          print("The nucleotides sequence for ", id, " has been translated")
 
-        print("Predicting the embedding for ", id, "...")
+      print("Predicting the embedding for ", id, "...")
 
-        embed = predict(query_sequence=seq_string, jobname=id)
+      # the code run in a different process to avoid memory leaks
 
-        print('done')
-        
-        seq_dict[id][ANNOTATION_KEY] = embed.tolist()
+      queue = multiprocessing.Queue()
+
+      p = multiprocessing.Process(target=predict, args=(id, seq_string, queue, ))
+      p.start()
+
+      embed = queue.get()
+      
+      p.kill()
+      del p
+      del queue
+
+      print('done')
+      
+      seq_dict[id][ANNOTATION_KEY] = embed.tolist()
         
         
     with open(FILE_PATH, "w") as file:
