@@ -10,7 +10,7 @@ import multiprocessing
 
 # FILE_PATH = "./dataset/NEIS2157.json" # file containing the origina dataset. A key will be added on the dict and the file will be overwrited
 # FILE_PATH = "./dataset/globins.json"
-FILE_PATH = "./dataset/test.json"
+FILE_PATH = "./dataset/proteins.json"
 
 
 ANNOTATION_KEY = "alphafold"

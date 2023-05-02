@@ -1,0 +1,369 @@
+Predicting the embedding for  sp|O43257|ZNHI1_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|O43257|ZNHI1_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 45.808604615865136
+element added
+done
+Predicting the embedding for  sp|Q9Y225|RNF24_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|Q9Y225|RNF24_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 61.81094609509647
+element added
+done
+Predicting the embedding for  sp|Q9Y3C5|RNF11_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|Q9Y3C5|RNF11_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 51.62708303308288
+element added
+done
+Predicting the embedding for  sp|P09234|RU1C_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|P09234|RU1C_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 55.77054515953188
+element added
+done
+Predicting the embedding for  sp|P38936|CDN1A_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|P38936|CDN1A_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 37.45952966877163
+element added
+done
+Predicting the embedding for  sp|Q8TBK6|ZCH10_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|Q8TBK6|ZCH10_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 52.77108699539706
+element added
+done
+Predicting the embedding for  sp|P60321|NANO2_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|P60321|NANO2_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 34.46826388599651
+element added
+done
+Predicting the embedding for  sp|P61927|RL37_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|P61927|RL37_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 56.796608171931666
+element added
+done
+Predicting the embedding for  sp|Q9UK33|ZN580_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|Q9UK33|ZN580_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 57.24110898059122
+element added
+done
+Predicting the embedding for  sp|Q6NZ36|FAP20_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|Q6NZ36|FAP20_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 39.08776875257962
+element added
+done
+Predicting the embedding for  sp|O00488|ZN593_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|O00488|ZN593_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 52.81136263711057
+element added
+done
+Predicting the embedding for  sp|P42677|RS27_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|P42677|RS27_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 57.41142219236905
+element added
+done
+Predicting the embedding for  sp|Q96D59|RN183_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|Q96D59|RN183_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 45.667897584539325
+element added
+done
+Predicting the embedding for  sp|Q9NYG5|APC11_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|Q9NYG5|APC11_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 35.34003624040879
+element added
+done
+Predicting the embedding for  sp|Q9Y2Y1|RPC10_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|Q9Y2Y1|RPC10_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 31.385553457195062
+element added
+done
+Predicting the embedding for  sp|Q96GF1|RN185_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|Q96GF1|RN185_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 51.23591865742046
+element added
+done
+Predicting the embedding for  sp|P63272|SPT4H_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|P63272|SPT4H_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 42.48311001492743
+element added
+done
+Predicting the embedding for  sp|Q15649|ZNHI3_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|Q15649|ZNHI3_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 37.98513759912289
+element added
+done
+Predicting the embedding for  sp|P36954|RPB9_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|P36954|RPB9_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 36.83668459533585
+element added
+done
+Predicting the embedding for  sp|Q9P0T4|ZN581_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|Q9P0T4|ZN581_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 34.098296752858595
+element added
+done
+Predicting the embedding for  sp|P61513|RL37A_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|P61513|RL37A_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 43.37042516393174
+element added
+done
+Predicting the embedding for  sp|Q9H2H0|CXXC4_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|Q9H2H0|CXXC4_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 33.26862697063242
+element added
+done
+Predicting the embedding for  sp|Q9UDW3|ZMAT5_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|Q9UDW3|ZMAT5_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 44.36080232986917
+element added
+done
+Predicting the embedding for  sp|P60323|NANO3_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|P60323|NANO3_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 42.62129531196586
+element added
+done
+Predicting the embedding for  sp|Q9HAJ7|SP30L_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|Q9HAJ7|SP30L_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 38.547780715031536
+element added
+done
+Predicting the embedding for  sp|P78317|RNF4_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|P78317|RNF4_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 30.219356573573016
+element added
+done
+Predicting the embedding for  sp|Q8N9Q2|SR1IP_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|Q8N9Q2|SR1IP_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 67.60992576114899
+element added
+done
+Predicting the embedding for  sp|Q96NC0|ZMAT2_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|Q96NC0|ZMAT2_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 50.90138562263322
+element added
+done
+Predicting the embedding for  sp|Q71UM5|RS27L_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|Q71UM5|RS27L_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 57.63552527276646
+element added
+done
+Predicting the embedding for  sp|P62877|RBX1_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|P62877|RBX1_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 45.90081122905986
+element added
+done
+Predicting the embedding for  sp|Q19AV6|ZSWM7_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|Q19AV6|ZSWM7_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 38.233283726024446
+element added
+done
+Predicting the embedding for  sp|Q9P1U0|RPA12_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|Q9P1U0|RPA12_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 34.06726990633042
+element added
+done
+Predicting the embedding for  sp|Q9H9V4|RN122_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|Q9H9V4|RN122_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 53.4654184618902
+element added
+done
+Predicting the embedding for  sp|P53803|RPAB4_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|P53803|RPAB4_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 75.11132459187094
+element added
+done
+Predicting the embedding for  sp|Q99942|RNF5_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|Q99942|RNF5_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 51.81719086195551
+element added
+done
+Predicting the embedding for  sp|Q9P0P0|RN181_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|Q9P0P0|RN181_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 37.89167378037839
+element added
+done
+Predicting the embedding for  sp|Q8IY57|YAF2_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|Q8IY57|YAF2_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 55.21948129347998
+element added
+done
+Predicting the embedding for  sp|P79522|PRR3_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|P79522|PRR3_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 54.01365537478521
+element added
+done
+Predicting the embedding for  sp|P62979|RS27A_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|P62979|RS27A_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 55.04757642430794
+element added
+done
+Predicting the embedding for  sp|P62633|CNBP_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|P62633|CNBP_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 30.672023195822465
+element added
+done
+Predicting the embedding for  sp|Q9UBF6|RBX2_HUMAN ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+Predicting sp|Q9UBF6|RBX2_HUMAN
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 53.20930882421806
+element added
+done

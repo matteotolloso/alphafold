@@ -1,0 +1,351 @@
+The nucleotides sequence for  NEIS2157_14  has been translated
+Predicting the embedding for  NEIS2157_14 ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+2023-04-30 22:47:57.933084: E external/xla/xla/stream_executor/cuda/cuda_driver.cc:268] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2023-04-30 22:48:00.033609: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Predicting NEIS2157_14
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 32.384093720721566
+element added
+done
+The nucleotides sequence for  NEIS2157_25  has been translated
+Predicting the embedding for  NEIS2157_25 ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+2023-05-01 00:08:59.632500: E external/xla/xla/stream_executor/cuda/cuda_driver.cc:268] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2023-05-01 00:09:02.370595: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Predicting NEIS2157_25
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 32.18182935978451
+element added
+done
+The nucleotides sequence for  NEIS2157_20  has been translated
+Predicting the embedding for  NEIS2157_20 ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+2023-05-01 01:29:01.196749: E external/xla/xla/stream_executor/cuda/cuda_driver.cc:268] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2023-05-01 01:29:03.465967: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Predicting NEIS2157_20
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 32.370923147559964
+element added
+done
+The nucleotides sequence for  NEIS2157_16  has been translated
+Predicting the embedding for  NEIS2157_16 ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+2023-05-01 02:42:56.787473: E external/xla/xla/stream_executor/cuda/cuda_driver.cc:268] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2023-05-01 02:42:58.852121: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Predicting NEIS2157_16
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 37.72548254792604
+element added
+done
+The nucleotides sequence for  NEIS2157_8  has been translated
+Predicting the embedding for  NEIS2157_8 ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+2023-05-01 03:44:20.291707: E external/xla/xla/stream_executor/cuda/cuda_driver.cc:268] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2023-05-01 03:44:22.358160: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Predicting NEIS2157_8
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 32.480499717988856
+element added
+done
+The nucleotides sequence for  NEIS2157_12  has been translated
+Predicting the embedding for  NEIS2157_12 ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+2023-05-01 04:43:30.524402: E external/xla/xla/stream_executor/cuda/cuda_driver.cc:268] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2023-05-01 04:43:32.567310: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Predicting NEIS2157_12
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 33.283394034065374
+element added
+done
+The nucleotides sequence for  NEIS2157_9  has been translated
+Predicting the embedding for  NEIS2157_9 ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+2023-05-01 05:42:36.018284: E external/xla/xla/stream_executor/cuda/cuda_driver.cc:268] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2023-05-01 05:42:38.045787: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Predicting NEIS2157_9
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 32.9526165554408
+element added
+done
+The nucleotides sequence for  NEIS2157_26  has been translated
+Predicting the embedding for  NEIS2157_26 ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+2023-05-01 06:41:46.559121: E external/xla/xla/stream_executor/cuda/cuda_driver.cc:268] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2023-05-01 06:41:48.609430: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Predicting NEIS2157_26
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 31.95331298130917
+element added
+done
+The nucleotides sequence for  NEIS2157_21  has been translated
+Predicting the embedding for  NEIS2157_21 ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+2023-05-01 07:40:49.028112: E external/xla/xla/stream_executor/cuda/cuda_driver.cc:268] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2023-05-01 07:40:51.098914: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Predicting NEIS2157_21
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 32.2196005982111
+element added
+done
+The nucleotides sequence for  NEIS2157_13  has been translated
+Predicting the embedding for  NEIS2157_13 ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+2023-05-01 08:39:52.225590: E external/xla/xla/stream_executor/cuda/cuda_driver.cc:268] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2023-05-01 08:39:54.288310: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Predicting NEIS2157_13
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 32.35903067541382
+element added
+done
+The nucleotides sequence for  NEIS2157_23  has been translated
+Predicting the embedding for  NEIS2157_23 ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+2023-05-01 09:39:00.394315: E external/xla/xla/stream_executor/cuda/cuda_driver.cc:268] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2023-05-01 09:39:02.475225: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Predicting NEIS2157_23
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 32.73065810497876
+element added
+done
+The nucleotides sequence for  NEIS2157_5  has been translated
+Predicting the embedding for  NEIS2157_5 ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+2023-05-01 10:38:16.655063: E external/xla/xla/stream_executor/cuda/cuda_driver.cc:268] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2023-05-01 10:38:18.722344: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Predicting NEIS2157_5
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 31.958727632648195
+element added
+done
+The nucleotides sequence for  NEIS2157_19  has been translated
+Predicting the embedding for  NEIS2157_19 ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+2023-05-01 11:49:19.019150: E external/xla/xla/stream_executor/cuda/cuda_driver.cc:268] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2023-05-01 11:49:21.522057: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Predicting NEIS2157_19
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 32.24706117216766
+element added
+done
+The nucleotides sequence for  NEIS2157_11  has been translated
+Predicting the embedding for  NEIS2157_11 ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+2023-05-01 12:58:44.255002: E external/xla/xla/stream_executor/cuda/cuda_driver.cc:268] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2023-05-01 12:58:46.318378: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Predicting NEIS2157_11
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 32.22052823582446
+element added
+done
+The nucleotides sequence for  NEIS2157_15  has been translated
+Predicting the embedding for  NEIS2157_15 ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+2023-05-01 13:58:07.269820: E external/xla/xla/stream_executor/cuda/cuda_driver.cc:268] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2023-05-01 13:58:09.326953: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Predicting NEIS2157_15
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 37.586493248342705
+element added
+done
+The nucleotides sequence for  NEIS2157_18  has been translated
+Predicting the embedding for  NEIS2157_18 ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+2023-05-01 15:10:35.128916: E external/xla/xla/stream_executor/cuda/cuda_driver.cc:268] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2023-05-01 15:10:37.866222: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Predicting NEIS2157_18
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 33.107929289272185
+element added
+done
+The nucleotides sequence for  NEIS2157_2  has been translated
+Predicting the embedding for  NEIS2157_2 ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+2023-05-01 16:26:31.897086: E external/xla/xla/stream_executor/cuda/cuda_driver.cc:268] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2023-05-01 16:26:33.985844: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Predicting NEIS2157_2
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 32.370923147559964
+element added
+done
+The nucleotides sequence for  NEIS2157_6  has been translated
+Predicting the embedding for  NEIS2157_6 ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+2023-05-01 17:40:15.178137: E external/xla/xla/stream_executor/cuda/cuda_driver.cc:268] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2023-05-01 17:40:18.137191: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Predicting NEIS2157_6
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 35.87669745939242
+element added
+done
+The nucleotides sequence for  NEIS2157_10  has been translated
+Predicting the embedding for  NEIS2157_10 ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+2023-05-01 19:03:25.242397: E external/xla/xla/stream_executor/cuda/cuda_driver.cc:268] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2023-05-01 19:03:28.932892: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Predicting NEIS2157_10
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 32.370923147559964
+element added
+done
+The nucleotides sequence for  NEIS2157_4  has been translated
+Predicting the embedding for  NEIS2157_4 ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+2023-05-01 20:29:06.051229: E external/xla/xla/stream_executor/cuda/cuda_driver.cc:268] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2023-05-01 20:29:08.094596: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Predicting NEIS2157_4
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 32.6766459036755
+element added
+done
+The nucleotides sequence for  NEIS2157_22  has been translated
+Predicting the embedding for  NEIS2157_22 ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+2023-05-01 22:05:25.870765: E external/xla/xla/stream_executor/cuda/cuda_driver.cc:268] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2023-05-01 22:05:29.822270: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Predicting NEIS2157_22
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 32.370923147559964
+element added
+done
+The nucleotides sequence for  NEIS2157_3  has been translated
+Predicting the embedding for  NEIS2157_3 ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+2023-05-01 23:40:13.476017: E external/xla/xla/stream_executor/cuda/cuda_driver.cc:268] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2023-05-01 23:40:16.789394: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Predicting NEIS2157_3
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 32.76464860435214
+element added
+done
+The nucleotides sequence for  NEIS2157_17  has been translated
+Predicting the embedding for  NEIS2157_17 ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+2023-05-02 00:58:38.251377: E external/xla/xla/stream_executor/cuda/cuda_driver.cc:268] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2023-05-02 00:58:40.343406: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Predicting NEIS2157_17
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 32.596810505586184
+element added
+done
+The nucleotides sequence for  NEIS2157_27  has been translated
+Predicting the embedding for  NEIS2157_27 ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+2023-05-02 01:59:11.604457: E external/xla/xla/stream_executor/cuda/cuda_driver.cc:268] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2023-05-02 01:59:13.655887: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Predicting NEIS2157_27
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 32.98160921626634
+element added
+done
+The nucleotides sequence for  NEIS2157_7  has been translated
+Predicting the embedding for  NEIS2157_7 ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+2023-05-02 02:58:26.494690: E external/xla/xla/stream_executor/cuda/cuda_driver.cc:268] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2023-05-02 02:58:28.546198: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Predicting NEIS2157_7
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 32.37795107057301
+element added
+done
+The nucleotides sequence for  NEIS2157_1  has been translated
+Predicting the embedding for  NEIS2157_1 ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+2023-05-02 03:57:54.469752: E external/xla/xla/stream_executor/cuda/cuda_driver.cc:268] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2023-05-02 03:57:56.528705: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Predicting NEIS2157_1
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 32.370923147559964
+element added
+done
+The nucleotides sequence for  NEIS2157_24  has been translated
+Predicting the embedding for  NEIS2157_24 ...
+/home/matteo/anaconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
+  warnings.warn(
+2023-05-02 04:57:24.518181: E external/xla/xla/stream_executor/cuda/cuda_driver.cc:268] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2023-05-02 04:57:26.583828: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+Predicting NEIS2157_24
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 33.26082980698809
+element added
+done
