@@ -1,5 +1,7 @@
 # MY
 params/
+dataset*
+tmpdata/*
 
 
 # Byte-compiled / optimized / DLL files
