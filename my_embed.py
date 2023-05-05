@@ -2,6 +2,7 @@ from Bio.Seq import Seq
 import json
 import os
 import multiprocessing
+import sys
 
 
 
@@ -10,12 +11,12 @@ import multiprocessing
 
 # FILE_PATH = "./dataset/NEIS2157.json" # file containing the origina dataset. A key will be added on the dict and the file will be overwrited
 # FILE_PATH = "./dataset/globins.json"
-FILE_PATH = "./dataset/proteins.json"
+FILE_PATH = "./dataset/batterio.json"
 
 
 ANNOTATION_KEY = "alphafold"
-
-# os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 
 # ******************************
@@ -23,10 +24,12 @@ ANNOTATION_KEY = "alphafold"
 
 
 def predict(id, query_sequence):
+
+    import sys
    
     jobname = id
    
-    print("Predicting", jobname)	
+    print("Predicting", jobname, file=sys.stderr)	
     import os
     import os.path
     import re
@@ -355,9 +358,9 @@ def main():
 
 		if set(seq_string).issubset(set(["A", "C", "G", "T"])):
 			seq_string = str(Seq(seq_string).translate(stop_symbol=""))
-			print("The nucleotides sequence for ", id, " has been translated")
+			print("The nucleotides sequence for ", id, " has been translated", file=sys.stderr)
 
-		print("Predicting the embedding for ", id, "...")
+		print("Predicting the embedding for ", id, "...", file=sys.stderr)
 
 		# the code run in a different process to avoid memory leaks
 
