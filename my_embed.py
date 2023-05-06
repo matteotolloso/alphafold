@@ -3,20 +3,25 @@ import json
 import os
 import multiprocessing
 import sys
+import warnings
+
 
 
 
 
 # ********* SETTINGS **********
 
-# FILE_PATH = "./dataset/NEIS2157.json" # file containing the origina dataset. A key will be added on the dict and the file will be overwrited
-# FILE_PATH = "./dataset/globins.json"
+
 FILE_PATH = "./dataset/batterio.json"
+# FILE_PATH = "./dataset/covid19.json"
+#FILE_PATH = "./dataset/emoglobina.json"
+
 
 
 ANNOTATION_KEY = "alphafold"
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+warnings.filterwarnings("ignore", category=DeprecationWarning) 
 
 
 # ******************************
@@ -29,7 +34,7 @@ def predict(id, query_sequence):
    
     jobname = id
    
-    print("Predicting", jobname, file=sys.stderr)	
+    print("New process started", jobname, file=sys.stderr)	
     import os
     import os.path
     import re
@@ -322,13 +327,17 @@ def predict(id, query_sequence):
     with open(FILE_PATH, "w") as file:   # save the list of seqrecords alreay annotated with the others embeddings
         json.dump(seq_dict, file, indent=4)
 
-    print("element added")
+    print("element added", file=sys.stderr)
     return
 
 
 
 
 def main():
+
+  pid = os.getpid()
+  print(f'{pid}, {FILE_PATH}', file=sys.stderr)
+
     # remove all the file in the tmpdata folder
 	for file in os.listdir("./tmpdata"):
 		os.remove(os.path.join("./tmpdata", file))
@@ -352,6 +361,11 @@ def main():
 
 	
 	for id in seq_dict.keys():
+
+    if ANNOTATION_KEY in seq_dict[id]:
+      print(f"key: {id} already embedded", file=sys.stderr)
+      continue
+
 		seq_string = seq_dict[id]["sequence"]
 
 		seq_string = seq_string.replace(" ", "").replace("\n", "")
@@ -369,7 +383,6 @@ def main():
 
 		p.join()
 
-		print('done')
 
 		
         

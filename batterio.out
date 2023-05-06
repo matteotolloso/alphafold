@@ -1,25 +1,4 @@
-Predicting the embedding for  tr|E0YJB0|E0YJB0_NEIME ...
-Predicting tr|E0YJB0|E0YJB0_NEIME
-/home/matteotolloso/miniconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
-  warnings.warn(
-No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
-running model_1
-reranking models based on avg. predicted lDDT
-model_1 28.364841437989014
-element added
-Predicting the embedding for  tr|Q1KMW9|Q1KMW9_NEIME ...
-done
-Predicting tr|Q1KMW9|Q1KMW9_NEIME
-/home/matteotolloso/miniconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
-  warnings.warn(
-No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
-running model_1
-reranking models based on avg. predicted lDDT
-model_1 37.59392419543996
-element added
-Predicting the embedding for  tr|Q5W9D3|Q5W9D3_NEIME ...
-done
-Predicting tr|Q5W9D3|Q5W9D3_NEIME
-/home/matteotolloso/miniconda3/envs/bioemb4/lib/python3.10/site-packages/Bio/Data/SCOPData.py:18: BiopythonDeprecationWarning: The 'Bio.Data.SCOPData' module will be deprecated in a future release of Biopython in favor of 'Bio.Data.PDBData.
-  warnings.warn(
-No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+
+  File "/home/matteotolloso/alphafold/my_embed.py", line 342
+    for file in os.listdir("./tmpdata"):
+TabError: inconsistent use of tabs and spaces in indentation
