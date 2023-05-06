@@ -339,13 +339,13 @@ def main():
   print(f'{pid}, {FILE_PATH}', file=sys.stderr)
 
     # remove all the file in the tmpdata folder
-	for file in os.listdir("./tmpdata"):
-		os.remove(os.path.join("./tmpdata", file))
+  for file in os.listdir("./tmpdata"):
+    os.remove(os.path.join("./tmpdata", file))
 
     # if the folder params is not present, download the params
-	if not os.path.isdir("params"):
-		raise Exception("The folder params is not present. Please download the params and put them in the folder params")
-		""" 
+  if not os.path.isdir("params"):
+    raise Exception("The folder params is not present. Please download the params and put them in the folder params")
+    """ 
 		!sed -i "s/pdb_lines.append('END')//" ./alphafold/common/protein.py
 		!sed -i "s/pdb_lines.append('ENDMDL')//" ./alphafold/common/protein.py
 		!wget -qnc https://storage.googleapis.com/alphafold/alphafold_params_2021-07-14.tar
@@ -354,34 +354,34 @@ def main():
 		!rm alphafold_params_2021-07-14.tar
 		"""
 
-	seq_dict = []
+  seq_dict = []
     
-	with open(FILE_PATH, "r") as file:   # load the list of seqrecords alreay annotated with the others embeddings
-		seq_dict = json.load(file)
+  with open(FILE_PATH, "r") as file:   # load the list of seqrecords alreay annotated with the others embeddings
+    seq_dict = json.load(file)
 
 	
-	for id in seq_dict.keys():
+  for id in seq_dict.keys():
 
     if ANNOTATION_KEY in seq_dict[id]:
       print(f"key: {id} already embedded", file=sys.stderr)
       continue
 
-		seq_string = seq_dict[id]["sequence"]
+    seq_string = seq_dict[id]["sequence"]
 
-		seq_string = seq_string.replace(" ", "").replace("\n", "")
+    seq_string = seq_string.replace(" ", "").replace("\n", "")
 
-		if set(seq_string).issubset(set(["A", "C", "G", "T"])):
-			seq_string = str(Seq(seq_string).translate(stop_symbol=""))
-			print("The nucleotides sequence for ", id, " has been translated", file=sys.stderr)
+    if set(seq_string).issubset(set(["A", "C", "G", "T"])):
+      seq_string = str(Seq(seq_string).translate(stop_symbol=""))
+      print("The nucleotides sequence for ", id, " has been translated", file=sys.stderr)
 
-		print("Predicting the embedding for ", id, "...", file=sys.stderr)
+    print("Predicting the embedding for ", id, "...", file=sys.stderr)
 
 		# the code run in a different process to avoid memory leaks
 
-		p = multiprocessing.Process(target=predict, args=(id, seq_string, ))
-		p.start()
+    p = multiprocessing.Process(target=predict, args=(id, seq_string, ))
+    p.start()
 
-		p.join()
+    p.join()
 
 
 		
