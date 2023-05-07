@@ -3,7 +3,10 @@ import json
 import os
 import multiprocessing
 import sys
+def warn(*args, **kwargs):
+    pass
 import warnings
+warnings.warn = warn
 
 
 
@@ -31,6 +34,11 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 def predict(id, query_sequence):
 
     import sys
+    def warn(*args, **kwargs):
+      pass
+    import warnings
+    warnings.warn = warn
+    warnings.filterwarnings("ignore", category=DeprecationWarning) 
    
     jobname = id
    

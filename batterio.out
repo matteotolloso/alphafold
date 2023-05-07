@@ -1,4 +1,89 @@
-
-  File "/home/matteotolloso/alphafold/my_embed.py", line 342
-    for file in os.listdir("./tmpdata"):
-TabError: inconsistent use of tabs and spaces in indentation
+207018, ./dataset/batterio.json
+key: tr|E0YJB0|E0YJB0_NEIME already embedded
+key: tr|Q1KMW9|Q1KMW9_NEIME already embedded
+key: tr|Q5W9D3|Q5W9D3_NEIME already embedded
+key: tr|Q9RQV7|Q9RQV7_NEIME already embedded
+key: tr|Q9S360|Q9S360_NEIME already embedded
+key: tr|Q9XAY8|Q9XAY8_NEIME already embedded
+key: tr|X5EFD5|X5EFD5_NEIME already embedded
+key: tr|X5EFF5|X5EFF5_NEIME already embedded
+Predicting the embedding for  tr|X5EFQ6|X5EFQ6_NEIME ...
+New process started tr|X5EFQ6|X5EFQ6_NEIME
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 26.01931967455792
+Predicting the embedding for  tr|X5EG26|X5EG26_NEIME ...
+New process started tr|X5EG26|X5EG26_NEIME
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 28.83557655885021
+Predicting the embedding for  tr|X5EG41|X5EG41_NEIME ...
+New process started tr|X5EG41|X5EG41_NEIME
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 27.177673716083607
+Predicting the embedding for  tr|X5EGE0|X5EGE0_NEIME ...
+New process started tr|X5EGE0|X5EGE0_NEIME
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 34.15297373613287
+Predicting the embedding for  tr|X5EGN9|X5EGN9_NEIME ...
+New process started tr|X5EGN9|X5EGN9_NEIME
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 33.5217740866931
+Predicting the embedding for  tr|X5EGR7|X5EGR7_NEIME ...
+New process started tr|X5EGR7|X5EGR7_NEIME
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 31.260310274473916
+Predicting the embedding for  tr|X5EGZ2|X5EGZ2_NEIME ...
+New process started tr|X5EGZ2|X5EGZ2_NEIME
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 39.66282309508274
+Predicting the embedding for  tr|X5EH23|X5EH23_NEIME ...
+New process started tr|X5EH23|X5EH23_NEIME
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 28.5704216038991
+Predicting the embedding for  tr|X5EH65|X5EH65_NEIME ...
+New process started tr|X5EH65|X5EH65_NEIME
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 29.200045880306853
+Predicting the embedding for  tr|X5EHD0|X5EHD0_NEIME ...
+New process started tr|X5EHD0|X5EHD0_NEIME
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 45.5154653231089
+Predicting the embedding for  tr|X5EHD5|X5EHD5_NEIME ...
+New process started tr|X5EHD5|X5EHD5_NEIME
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 29.15125538892597
+Predicting the embedding for  tr|X5EHI8|X5EHI8_NEIME ...
+New process started tr|X5EHI8|X5EHI8_NEIME
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
