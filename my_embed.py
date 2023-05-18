@@ -15,14 +15,14 @@ warnings.warn = warn
 # ********* SETTINGS **********
 
 
-FILE_PATH = "./dataset/batterio.json"
+FILE_PATH = "./dataset/topo.json"
 # FILE_PATH = "./dataset/covid19.json"
 #FILE_PATH = "./dataset/emoglobina.json"
 
 
 
 ANNOTATION_KEY = "alphafold"
-os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+#os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 warnings.filterwarnings("ignore", category=DeprecationWarning) 
 
@@ -381,6 +381,10 @@ def main():
     if set(seq_string).issubset(set(["A", "C", "G", "T"])):
       seq_string = str(Seq(seq_string).translate(stop_symbol=""))
       print("The nucleotides sequence for ", id, " has been translated", file=sys.stderr)
+    
+    if (len(seq_string) > 360):
+      print("The sequence for ", id, " is too long for the GPU. Skipped", file=sys.stderr)
+      continue
 
     print("Predicting the embedding for ", id, "...", file=sys.stderr)
 

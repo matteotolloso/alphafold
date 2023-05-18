@@ -1,0 +1,1100 @@
+293337, ./dataset/topo.json
+key: sp|A0A0B4J1N3|GP15L_MOUSE already embedded
+The sequence for  sp|A0A0G2JDV3|GBP6_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|A0A0U1RPR8|GUC2D_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|A0A2R8VHR8|DT3UO_MOUSE ...
+New process started sp|A0A2R8VHR8|DT3UO_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 59.92974879585748
+Predicting the embedding for  sp|A1A546|ISX_MOUSE ...
+New process started sp|A1A546|ISX_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 53.4096878336185
+Predicting the embedding for  sp|A1A547|PGRP3_MOUSE ...
+New process started sp|A1A547|PGRP3_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 28.154536741334983
+Predicting the embedding for  sp|A1E960|ODAM_MOUSE ...
+New process started sp|A1E960|ODAM_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 27.36179496359625
+The sequence for  sp|A2A5N8|LMBL1_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|A2A6M5|CACO2_MOUSE ...
+New process started sp|A2A6M5|CACO2_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 64.52749837268718
+The sequence for  sp|A2A891|CMTA1_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|A2A9A2|DMTA2_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|A2AI05|NDOR1_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|A2AJ77|PRD12_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|A2AJN7|S4A11_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|A2AKQ0|S35D1_MOUSE ...
+New process started sp|A2AKQ0|S35D1_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 36.22144973029205
+The sequence for  sp|A2AWL7|MGAP_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|A2AWP0|BIRC7_MOUSE ...
+New process started sp|A2AWP0|BIRC7_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 33.52055901503783
+Predicting the embedding for  sp|A2RST1|MGST2_MOUSE ...
+New process started sp|A2RST1|MGST2_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 60.21384302931214
+The sequence for  sp|A3FIN4|AT8B5_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|A4FUQ5|FPRS4_MOUSE ...
+New process started sp|A4FUQ5|FPRS4_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 45.490554830863445
+The sequence for  sp|A8VU90|ANKL1_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|B1ARD8|SLFN8_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|B1ATG9|TIKI2_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|B2RXV4|FLVC1_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|B5X0E4|ABCB5_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|B6A8R8|TARM1_MOUSE ...
+New process started sp|B6A8R8|TARM1_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 36.360393352384875
+The sequence for  sp|B9EJ57|MTF1B_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|B9EJV3|GRB1L_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|D0VYS2|HSF3_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|D3Z752|SPXN_MOUSE ...
+New process started sp|D3Z752|SPXN_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 60.45240455236703
+The sequence for  sp|E9PXX9|S28A1_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|E9PZZ1|PRD13_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|E9Q816|CP2W1_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|E9Q8Q8|SACA6_MOUSE ...
+New process started sp|E9Q8Q8|SACA6_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 41.75120930635626
+The sequence for  sp|E9Q912|GDS1_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|E9Q956|MCMD2_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|F2YMG0|PRS56_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|G3UXB3|NKX11_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|G3X912|SPRTN_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|I7HJS4|ZN683_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|O08584|KLF6_MOUSE ...
+New process started sp|O08584|KLF6_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 39.62638412859958
+The sequence for  sp|O08644|EPHB6_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|O08686|BARX2_MOUSE ...
+New process started sp|O08686|BARX2_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 39.583110449036795
+The sequence for  sp|O08746|MATN2_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|O08789|MNT_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|O08849|RGS2_MOUSE ...
+New process started sp|O08849|RGS2_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 37.195614075780185
+The sequence for  sp|O08856|ELL_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|O08934|UNC4_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|O08983|HPS1_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|O09009|RFNG_MOUSE ...
+New process started sp|O09009|RFNG_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 33.81508816795909
+The sequence for  sp|O09102|GCM2_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|O09112|DUS8_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|O09113|OTP_MOUSE ...
+New process started sp|O09113|OTP_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 43.06149564479964
+Predicting the embedding for  sp|O09198|MAL_MOUSE ...
+New process started sp|O09198|MAL_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 49.56058199604546
+The sequence for  sp|O35118|GFRA3_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|O35216|CENPA_MOUSE ...
+New process started sp|O35216|CENPA_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 52.02389624228011
+The sequence for  sp|O35348|COLQ_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|O35385|PPE2_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|O35417|PDYN_MOUSE ...
+New process started sp|O35417|PDYN_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 33.67786672892079
+Predicting the embedding for  sp|O35427|RPC9_MOUSE ...
+New process started sp|O35427|RPC9_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 40.90637585327869
+Predicting the embedding for  sp|O35437|TCF21_MOUSE ...
+New process started sp|O35437|TCF21_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 44.43218187635018
+Predicting the embedding for  sp|O35468|WNT9B_MOUSE ...
+New process started sp|O35468|WNT9B_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 33.049130556837724
+Predicting the embedding for  sp|O35565|FGF10_MOUSE ...
+New process started sp|O35565|FGF10_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 35.19755752648347
+The sequence for  sp|O35595|PTC2_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|O35608|ANGP2_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|O35652|LHX8_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|O35655|PPE1_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|O35674|ADA19_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|O35719|RA51B_MOUSE ...
+New process started sp|O35719|RA51B_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 37.17591010746197
+Predicting the embedding for  sp|O35739|KLF9_MOUSE ...
+New process started sp|O35739|KLF9_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 39.1181674564954
+Predicting the embedding for  sp|O35885|ASCL2_MOUSE ...
+New process started sp|O35885|ASCL2_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 45.277071424237356
+The sequence for  sp|O35902|DSG3_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|O35903|CCL25_MOUSE ...
+New process started sp|O35903|CCL25_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 47.59132803314413
+Predicting the embedding for  sp|O35980|NTH_MOUSE ...
+New process started sp|O35980|NTH_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 37.25679129582115
+Predicting the embedding for  sp|O54707|KLRD1_MOUSE ...
+New process started sp|O54707|KLRD1_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 42.215297975803104
+The sequence for  sp|O54732|MMP15_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|O54743|FOXF2_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|O54750|CP2J6_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|O54775|CCN4_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|O54803|P2RX6_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|O54907|TNF12_MOUSE ...
+New process started sp|O54907|TNF12_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 39.92177976786744
+Predicting the embedding for  sp|O54917|E2F6_MOUSE ...
+New process started sp|O54917|E2F6_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 40.21774971220813
+The sequence for  sp|O55040|NMUR1_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|O55071|CP2BJ_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|O55112|AFF2_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|O55123|MMP10_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|O55144|TLX3_MOUSE ...
+New process started sp|O55144|TLX3_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 46.85325161728176
+Predicting the embedding for  sp|O55183|STC1_MOUSE ...
+New process started sp|O55183|STC1_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 40.22539392206376
+Predicting the embedding for  sp|O55186|CD59A_MOUSE ...
+New process started sp|O55186|CD59A_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 44.43580935351744
+The sequence for  sp|O55188|DMP1_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|O55208|FIGLA_MOUSE ...
+New process started sp|O55208|FIGLA_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 40.91944025319106
+Predicting the embedding for  sp|O55237|CD70_MOUSE ...
+New process started sp|O55237|CD70_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 42.74469807780731
+Predicting the embedding for  sp|O55241|OREX_MOUSE ...
+New process started sp|O55241|OREX_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 50.378787784433584
+Predicting the embedding for  sp|O70137|ALX3_MOUSE ...
+New process started sp|O70137|ALX3_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 46.584255878153705
+The sequence for  sp|O70138|MMP8_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|O70157|TOP3A_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|O70176|PACA_MOUSE ...
+New process started sp|O70176|PACA_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 35.33339817432125
+The sequence for  sp|O70220|FOXQ1_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|O70283|WNT2B_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|O70291|GRK4_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|O70299|MB211_MOUSE ...
+New process started sp|O70299|MB211_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 32.68092109589225
+Predicting the embedding for  sp|O70326|GREM1_MOUSE ...
+New process started sp|O70326|GREM1_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 36.03458074844061
+The sequence for  sp|O70342|NPY5R_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|O70445|BARD1_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|O70497|FCN2_MOUSE ...
+New process started sp|O70497|FCN2_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 31.874411844488442
+Predicting the embedding for  sp|O70584|NKX28_MOUSE ...
+New process started sp|O70584|NKX28_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 34.34540816181723
+The sequence for  sp|O88329|MYO1A_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|O88335|KCNJ1_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|O88430|CCL22_MOUSE ...
+New process started sp|O88430|CCL22_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 49.256157015789185
+The sequence for  sp|O88516|DLL3_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|O88537|FPRS3_MOUSE ...
+New process started sp|O88537|FPRS3_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 40.62542308312039
+The sequence for  sp|O88632|SEM3F_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|O88676|MMP23_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|O88816|SNAT_MOUSE ...
+New process started sp|O88816|SNAT_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 27.95056213825975
+The sequence for  sp|O88854|GALR2_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|O88990|ACTN3_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|O89098|CYTF_MOUSE ...
+New process started sp|O89098|CYTF_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 35.40987471214433
+Predicting the embedding for  sp|O89101|FGF18_MOUSE ...
+New process started sp|O89101|FGF18_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 37.03830083884927
+The sequence for  sp|O89109|KCNN4_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P00536|MOS_MOUSE ...
+New process started sp|P00536|MOS_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 26.85657652558879
+Predicting the embedding for  sp|P00755|K1KB1_MOUSE ...
+New process started sp|P00755|K1KB1_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 28.262046960270474
+Predicting the embedding for  sp|P01216|GLHA_MOUSE ...
+New process started sp|P01216|GLHA_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 46.956874172199086
+Predicting the embedding for  sp|P01590|IL2RA_MOUSE ...
+New process started sp|P01590|IL2RA_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 50.78584341592926
+The sequence for  sp|P02716|ACHD_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P02772|FETA_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P02830|HXA7_MOUSE ...
+New process started sp|P02830|HXA7_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 36.970825544291316
+The sequence for  sp|P03966|MYCN_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P04444|HBBZ_MOUSE ...
+New process started sp|P04444|HBBZ_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 41.67835353680781
+The sequence for  sp|P04760|ACHG_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P04769|PR7D1_MOUSE ...
+New process started sp|P04769|PR7D1_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 37.02558769210684
+Predicting the embedding for  sp|P06467|HBAZ_MOUSE ...
+New process started sp|P06467|HBAZ_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 46.138381378972824
+Predicting the embedding for  sp|P06798|HXA4_MOUSE ...
+New process started sp|P06798|HXA4_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 45.26614806740643
+Predicting the embedding for  sp|P06879|PRL_MOUSE ...
+New process started sp|P06879|PRL_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 41.55694786101546
+Predicting the embedding for  sp|P06880|SOMA_MOUSE ...
+New process started sp|P06880|SOMA_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 39.10827124940473
+Predicting the embedding for  sp|P07321|EPO_MOUSE ...
+New process started sp|P07321|EPO_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 39.640811872754746
+Predicting the embedding for  sp|P07628|K1KB8_MOUSE ...
+New process started sp|P07628|K1KB8_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 27.35110862908645
+Predicting the embedding for  sp|P07903|ERCC1_MOUSE ...
+New process started sp|P07903|ERCC1_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 37.654473819670656
+The sequence for  sp|P09026|HXB3_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P09027|HXD3_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P09065|HME1_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P09066|HME2_MOUSE ...
+New process started sp|P09066|HME2_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 39.43753096427134
+Predicting the embedding for  sp|P09225|TNFB_MOUSE ...
+New process started sp|P09225|TNFB_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 34.88008584723202
+Predicting the embedding for  sp|P09633|HXC9_MOUSE ...
+New process started sp|P09633|HXC9_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 39.083323113455464
+The sequence for  sp|P09690|ACHB_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P0C092|CSEN4_MOUSE ...
+New process started sp|P0C092|CSEN4_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 50.98117839457774
+Predicting the embedding for  sp|P0C1T1|HXB2_MOUSE ...
+New process started sp|P0C1T1|HXB2_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 39.7229971465575
+Predicting the embedding for  sp|P0CG49|UBB_MOUSE ...
+New process started sp|P0CG49|UBB_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 82.06890441540477
+Predicting the embedding for  sp|P0DW27|MNS60_MOUSE ...
+New process started sp|P0DW27|MNS60_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 52.05826787588507
+Predicting the embedding for  sp|P10146|CCL1_MOUSE ...
+New process started sp|P10146|CCL1_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 42.51460739529533
+Predicting the embedding for  sp|P10284|HXB4_MOUSE ...
+New process started sp|P10284|HXB4_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 43.901190308445514
+Predicting the embedding for  sp|P10856|STP1_MOUSE ...
+New process started sp|P10856|STP1_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 62.76691815114922
+Predicting the embedding for  sp|P10922|H10_MOUSE ...
+New process started sp|P10922|H10_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 66.60650570051855
+Predicting the embedding for  sp|P11378|STP2_MOUSE ...
+New process started sp|P11378|STP2_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 54.597190881567414
+Predicting the embedding for  sp|P11403|FGF4_MOUSE ...
+New process started sp|P11403|FGF4_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 32.64065413522345
+The sequence for  sp|P12672|RAPSN_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P13541|MYH3_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P13542|MYH8_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P13705|MSH3_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P14439|HA23_MOUSE ...
+New process started sp|P14439|HA23_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 40.28941017787839
+Predicting the embedding for  sp|P15375|MYF6_MOUSE ...
+New process started sp|P15375|MYF6_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 31.217506100667833
+The sequence for  sp|P15392|CP2A4_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P15539|C11B2_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P15656|FGF5_MOUSE ...
+New process started sp|P15656|FGF5_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 36.61740461045418
+Predicting the embedding for  sp|P15945|K1KB5_MOUSE ...
+New process started sp|P15945|K1KB5_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 27.49347581086211
+Predicting the embedding for  sp|P15946|K1B11_MOUSE ...
+New process started sp|P15946|K1B11_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 29.480198923391345
+Predicting the embedding for  sp|P15949|K1KB9_MOUSE ...
+New process started sp|P15949|K1KB9_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 26.215860339426882
+The sequence for  sp|P16294|FA9_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P17534|DFAR2_MOUSE ...
+New process started sp|P17534|DFAR2_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 58.544974748061634
+Predicting the embedding for  sp|P17919|HXB1_MOUSE ...
+New process started sp|P17919|HXB1_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 45.01073796286624
+Predicting the embedding for  sp|P18340|CXCL9_MOUSE ...
+New process started sp|P18340|CXCL9_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 58.14792412384586
+Predicting the embedding for  sp|P20033|PDGFA_MOUSE ...
+New process started sp|P20033|PDGFA_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 33.12954183444871
+Predicting the embedding for  sp|P20489|FCERA_MOUSE ...
+New process started sp|P20489|FCERA_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 33.043508684002184
+Predicting the embedding for  sp|P20615|HXB9_MOUSE ...
+New process started sp|P20615|HXB9_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 50.73563461808763
+The sequence for  sp|P20782|ACHE_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P20852|CP2A5_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P20863|GDF1_MOUSE ...
+New process started sp|P20863|GDF1_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 30.354878118833323
+Predicting the embedding for  sp|P21552|WNT2_MOUSE ...
+New process started sp|P21552|WNT2_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 31.88576838406545
+Predicting the embedding for  sp|P21658|FGF6_MOUSE ...
+New process started sp|P21658|FGF6_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 33.3249508284631
+Predicting the embedding for  sp|P22389|EDN2_MOUSE ...
+New process started sp|P22389|EDN2_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 40.21009450372769
+Predicting the embedding for  sp|P22858|PTHR_MOUSE ...
+New process started sp|P22858|PTHR_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 54.854696827852
+The sequence for  sp|P22933|GBRD_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P22935|RABP2_MOUSE ...
+New process started sp|P22935|RABP2_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 49.552388405457116
+Predicting the embedding for  sp|P23275|OLF15_MOUSE ...
+New process started sp|P23275|OLF15_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 37.2235245991414
+The sequence for  sp|P23336|GGTA1_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P23440|PDE6B_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P23683|EVX1_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P23813|HXD11_MOUSE ...
+New process started sp|P23813|HXD11_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 44.79237653533871
+The sequence for  sp|P24457|CP2DB_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P24622|CRYAA_MOUSE ...
+New process started sp|P24622|CRYAA_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 29.753550473642445
+The sequence for  sp|P24822|PPBI_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P24823|PPBN_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P25085|IL1RA_MOUSE ...
+New process started sp|P25085|IL1RA_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 33.0511388695902
+The sequence for  sp|P25119|TNR1B_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P25318|CO8A2_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P25962|ADRB3_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P26928|HGFL_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P27106|MIS_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P27656|LIPC_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P27664|PDE6A_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P27681|GBRG3_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P28322|ETV4_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P28334|5HT1B_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P28357|HXD9_MOUSE ...
+New process started sp|P28357|HXD9_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 43.89317527978204
+The sequence for  sp|P28649|CP19A_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P28705|RXRG_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P28862|MMP3_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P29121|PCSK4_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P29974|CNGA1_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P30548|NK1R_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P30549|NK2R_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P30678|GNA15_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P30728|DRD3_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P30730|LSHR_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P30875|SSR2_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P30935|SSR3_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P31240|PDGFB_MOUSE ...
+New process started sp|P31240|PDGFB_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 30.581733627067123
+The sequence for  sp|P31245|HXA2_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P31257|HXC10_MOUSE ...
+New process started sp|P31257|HXC10_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 42.51158246065746
+Predicting the embedding for  sp|P31313|HXC11_MOUSE ...
+New process started sp|P31313|HXC11_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 41.62793337741557
+Predicting the embedding for  sp|P31315|GSX1_MOUSE ...
+New process started sp|P31315|GSX1_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 45.45326598868712
+The sequence for  sp|P31361|PO3F3_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P31362|PO2F3_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P31651|S6A12_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P31955|AREG_MOUSE ...
+New process started sp|P31955|AREG_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 54.229550979894654
+The sequence for  sp|P32211|ACM4_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P32299|BKRB2_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P32304|5HT7R_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P33033|MC3R_MOUSE ...
+New process started sp|P33033|MC3R_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 46.26765068455696
+The sequence for  sp|P33766|FPR1_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P34821|BMP8A_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P35343|CXCR2_MOUSE ...
+New process started sp|P35343|CXCR2_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 44.91029046587829
+The sequence for  sp|P35375|PE2R1_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P35377|OPRX_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P35378|FSHR_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P35419|PERT_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P35454|NEU1_MOUSE ...
+New process started sp|P35454|NEU1_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 52.60114654467537
+Predicting the embedding for  sp|P35455|NEU2_MOUSE ...
+New process started sp|P35455|NEU2_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 47.65869642606449
+Predicting the embedding for  sp|P35737|DMB_MOUSE ...
+New process started sp|P35737|DMB_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 34.32452370463633
+Predicting the embedding for  sp|P36363|FGF7_MOUSE ...
+New process started sp|P36363|FGF7_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 37.12430723606596
+Predicting the embedding for  sp|P36369|K1B26_MOUSE ...
+New process started sp|P36369|K1B26_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 28.716733774071503
+The sequence for  sp|P37172|ACVR1_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P37217|CD69_MOUSE ...
+New process started sp|P37217|CD69_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 40.661785778449556
+The sequence for  sp|P39038|CADH4_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P40224|SDF1_MOUSE ...
+New process started sp|P40224|SDF1_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 42.98407174259344
+Predicting the embedding for  sp|P40226|TPO_MOUSE ...
+New process started sp|P40226|TPO_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 34.203224034754655
+Predicting the embedding for  sp|P41155|TNFC_MOUSE ...
+New process started sp|P41155|TNFC_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 39.54485271109843
+Predicting the embedding for  sp|P41163|ETV2_MOUSE ...
+New process started sp|P41163|ETV2_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 30.89515594297677
+Predicting the embedding for  sp|P41272|CD27_MOUSE ...
+New process started sp|P41272|CD27_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 51.860666383029866
+Predicting the embedding for  sp|P41539|TKN1_MOUSE ...
+New process started sp|P41539|TKN1_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 41.02064340955006
+The sequence for  sp|P41971|ELK3_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P43021|NODAL_MOUSE ...
+New process started sp|P43021|NODAL_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 28.10819620453841
+The sequence for  sp|P43028|GDF6_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P43029|GDF7_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P43300|EGR3_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P43687|HMX2_MOUSE ...
+New process started sp|P43687|HMX2_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 55.43530645234564
+Predicting the embedding for  sp|P43688|NKX26_MOUSE ...
+New process started sp|P43688|NKX26_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 32.7719323302722
+Predicting the embedding for  sp|P47242|PAX9_MOUSE ...
+New process started sp|P47242|PAX9_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 33.29739770758178
+Predicting the embedding for  sp|P47877|IBP2_MOUSE ...
+New process started sp|P47877|IBP2_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 37.95810168264269
+Predicting the embedding for  sp|P47878|IBP3_MOUSE ...
+New process started sp|P47878|IBP3_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 36.41681270442276
+Predicting the embedding for  sp|P47931|FST_MOUSE ...
+New process started sp|P47931|FST_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 41.418366878637876
+The sequence for  sp|P47937|NK3R_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P47993|XCL1_MOUSE ...
+New process started sp|P47993|XCL1_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 47.17848710341092
+Predicting the embedding for  sp|P48031|GBX2_MOUSE ...
+New process started sp|P48031|GBX2_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 46.555919613231715
+Predicting the embedding for  sp|P48076|PA2GC_MOUSE ...
+New process started sp|P48076|PA2GC_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 44.02860451409895
+Predicting the embedding for  sp|P48298|CCL11_MOUSE ...
+New process started sp|P48298|CCL11_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 63.12543445220232
+Predicting the embedding for  sp|P48299|EDN3_MOUSE ...
+New process started sp|P48299|EDN3_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 37.804204978797834
+The sequence for  sp|P48301|TEAD2_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P48302|EDNRB_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P48545|KCNJ5_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P48614|WN10B_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P48615|WNT11_MOUSE ...
+New process started sp|P48615|WNT11_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 30.857147837629746
+Predicting the embedding for  sp|P48756|GIP_MOUSE ...
+New process started sp|P48756|GIP_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 43.14704965029235
+The sequence for  sp|P48964|MPIP1_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P48967|MPIP3_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P48986|NDF6_MOUSE ...
+New process started sp|P48986|NDF6_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 38.96029074340063
+The sequence for  sp|P49003|BMP5_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P49135|ERCC3_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P49650|P2RY1_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P49764|PLGF_MOUSE ...
+New process started sp|P49764|PLGF_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 44.682113916111824
+Predicting the embedding for  sp|P49766|VEGFB_MOUSE ...
+New process started sp|P49766|VEGFB_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 50.949001105082175
+Predicting the embedding for  sp|P49772|FLT3L_MOUSE ...
+New process started sp|P49772|FLT3L_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 54.66506225252523
+Predicting the embedding for  sp|P50149|GNAT2_MOUSE ...
+New process started sp|P50149|GNAT2_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 34.35249546005354
+Predicting the embedding for  sp|P50207|HXC13_MOUSE ...
+New process started sp|P50207|HXC13_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 42.98833516288934
+The sequence for  sp|P50220|NKX21_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P50592|TNF10_MOUSE ...
+New process started sp|P50592|TNF10_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 34.142433821227726
+The sequence for  sp|P50652|FANCC_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P50715|DFA31_MOUSE ...
+New process started sp|P50715|DFA31_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 58.59909453640641
+The sequence for  sp|P51576|P2RX1_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P51642|CNTF_MOUSE ...
+New process started sp|P51642|CNTF_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 42.410492432260604
+Predicting the embedding for  sp|P51675|CCR1_MOUSE ...
+New process started sp|P51675|CCR1_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 47.47013591081665
+Predicting the embedding for  sp|P51676|CC1L1_MOUSE ...
+New process started sp|P51676|CC1L1_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 48.77892912088611
+Predicting the embedding for  sp|P51678|CCR3_MOUSE ...
+New process started sp|P51678|CCR3_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 43.56007703521861
+Predicting the embedding for  sp|P51680|CCR4_MOUSE ...
+New process started sp|P51680|CCR4_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 41.46702916122526
+Predicting the embedding for  sp|P51682|CCR5_MOUSE ...
+New process started sp|P51682|CCR5_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 45.887793088524234
+Predicting the embedding for  sp|P51879|ONCO_MOUSE ...
+New process started sp|P51879|ONCO_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 45.35672076315673
+The sequence for  sp|P51944|CCNF_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P52019|ERG1_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P52187|KCJ12_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P52651|RHOX5_MOUSE ...
+New process started sp|P52651|RHOX5_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 50.201155059983996
+The sequence for  sp|P53690|MMP14_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P53783|SOX1_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P54130|FGF9_MOUSE ...
+New process started sp|P54130|FGF9_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 34.8888353419794
+The sequence for  sp|P54279|PMS2_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P54615|OSTR_MOUSE ...
+New process started sp|P54615|OSTR_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 50.50244233015106
+Predicting the embedding for  sp|P55002|MFAP2_MOUSE ...
+New process started sp|P55002|MFAP2_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 41.377826049643545
+Predicting the embedding for  sp|P55098|PEX2_MOUSE ...
+New process started sp|P55098|PEX2_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 34.63615315968449
+Predicting the embedding for  sp|P56386|DEFB1_MOUSE ...
+New process started sp|P56386|DEFB1_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 64.74281897733755
+The sequence for  sp|P56475|GBRR1_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P56476|GBRR2_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P56481|GASR_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P57748|MMP20_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P58019|CD59B_MOUSE ...
+New process started sp|P58019|CD59B_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 46.54449333333741
+The sequence for  sp|P58308|OX2R_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P58459|ATS10_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P59054|CSRN1_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P59111|KCNH8_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P59270|B3GA2_MOUSE ...
+New process started sp|P59270|B3GA2_MOUSE
+element added
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 31.754202046381224
+The sequence for  sp|P59509|ATS19_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P59511|ATS20_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P60853|LZTS1_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P61375|LHX5_MOUSE  is too long for the GPU. Skipped
+The sequence for  sp|P62515|PO3F4_MOUSE  is too long for the GPU. Skipped
+Predicting the embedding for  sp|P63032|RHES_MOUSE ...
+New process started sp|P63032|RHES_MOUSE
