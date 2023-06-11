@@ -1,0 +1,32 @@
+1460625, ../BioEmbedding/dataset/emoglobina/emoglobina.fasta
+Predicting the embedding 1, chunk 1/1
+New process started sp|P08849|HBAD_ACCGE
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+compiling in 12.254854917526245s
+2023-06-11 13:59:30.859051: E external/xla/xla/service/slow_operation_alarm.cc:65] 
+********************************
+[Compiling module jit_apply_fn] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2023-06-11 13:59:57.290428: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 2m26.431495836s
+
+********************************
+[Compiling module jit_apply_fn] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+Time for embedding: 1468.9287869930267
+running model_1
+reranking models based on avg. predicted lDDT
+model_1 43.29751387828677
+Recombining the chunks for sp|P08849|HBAD_ACCGE
+Predicting the embedding 2, chunk 1/1
+New process started sp|P08850|HBA_ACCGE
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+compiling in 5.082960367202759s
+2023-06-11 14:24:06.099755: E external/xla/xla/service/slow_operation_alarm.cc:65] 
+********************************
+[Compiling module jit_apply_fn] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2023-06-11 14:24:35.505860: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 2m29.406223388s
+
+********************************
+[Compiling module jit_apply_fn] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
