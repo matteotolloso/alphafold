@@ -1,4 +1,4 @@
-name: bioemb4
+name: alphafold
 channels:
   - anaconda
   - conda-forge

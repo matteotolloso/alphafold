@@ -448,6 +448,7 @@ if __name__ == "__main__":
         !sed -i "s/pdb_lines.append('ENDMDL')//" ./alphafold/common/protein.py
         !wget -qnc https://storage.googleapis.com/alphafold/alphafold_params_2021-07-14.tar
         !mkdir params
+        !mkdir tmpdata
         !tar -xf alphafold_params_2021-07-14.tar -C params/
         !rm alphafold_params_2021-07-14.tar
     """
