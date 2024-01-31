@@ -9,7 +9,7 @@ import time
 def warn(*args, **kwargs):
     pass
 import warnings
-warnings.warn = warn
+# warnings.warn = warn
 
 
 
@@ -18,15 +18,15 @@ warnings.warn = warn
 # ********* SETTINGS **********
 
 
-FASTA_FILE_PATH = "../BioEmbedding/dataset/topo/topo.fasta"
-OUT_DIR = "../BioEmbedding/dataset/topo/embeddings/alphafold"
+FASTA_FILE_PATH = "../BioEmbedding/dataset/meningite/meningite_proteins.fasta"
+OUT_DIR = "../BioEmbedding/dataset/meningite/embeddings/alphafold"
 MAX_CHUNK_SIZE = 1024
-FAST_MODE = False
+FAST_MODE = True
 
 
 #os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
-warnings.filterwarnings("ignore", category=DeprecationWarning) 
+# os.environ['TF_CPP_MIN_LOG_LEVEL'] = '0'
+# warnings.filterwarnings("ignore", category=DeprecationWarning) 
 
 
 # ******************************
@@ -385,7 +385,7 @@ def main():
       sequence_embedding = []
       for chunk_index, chunk in enumerate(chunks):
         print(f"Predicting the embedding {count+1}, chunk {chunk_index+1}/{len(chunks)}", file=sys.stderr, flush=True)
-        z = predict(seq_id=seq_id, chunk_index=chunk_index, query_sequence=chunk, write_to_path=False)
+        z = predict(id=seq_id, chunk_index=chunk_index, query_sequence=chunk, write_to_path=False)
         sequence_embedding.append(z)
 
       # can happen that che subsequences are not of the same length, in this case pad them with the mean value

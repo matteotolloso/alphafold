@@ -1,5 +1,0 @@
-1470412, ../BioEmbedding/dataset/batterio/batterio.fasta
-Predicting the embedding 1, chunk 1/1
-New process started tr|E0YJB0|E0YJB0_NEIME
-No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
-compiling in 8.169991731643677s
