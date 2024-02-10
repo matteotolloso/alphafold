@@ -6,6 +6,12 @@ import os
 from multiprocessing import Process
 import sys
 import time
+import tensorflow as tf
+import sys
+import os.path
+import re
+import hashlib
+
 def warn(*args, **kwargs):
     pass
 import warnings
@@ -18,39 +24,46 @@ import warnings
 # ********* SETTINGS **********
 
 
-FASTA_FILE_PATH = "../BioEmbedding/dataset/meningite/meningite_proteins.fasta"
-OUT_DIR = "../BioEmbedding/dataset/meningite/embeddings/alphafold"
+FASTA_FILE_PATH = "./meningite_proteins.fasta"
+OUT_DIR = "./embeddings/meningite"
 MAX_CHUNK_SIZE = 1024
 FAST_MODE = True
 
 
-#os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
-# os.environ['TF_CPP_MIN_LOG_LEVEL'] = '0'
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '0'
 # warnings.filterwarnings("ignore", category=DeprecationWarning) 
 
 
 # ******************************
 
+# gpu_devices = tf.config.experimental.list_physical_devices('GPU')
+# print(gpu_devices)
+# for device in gpu_devices:
+#     tf.config.experimental.set_memory_growth(device, True)
+
+# echo 0 | sudo tee -a /sys/bus/pci/devices/0000:01:00.0/numa_node
+# export LD_LIBRARY_PATH=/home/matteo/miniconda3/envs/alphafold/lib/
+
+
 
 
 def predict(id, chunk_index, query_sequence, write_to_path=False):
+
+  import sys
     
   start = time.time()
 
-  import sys
-  def warn(*args, **kwargs):
-    pass
-  import warnings
-  warnings.warn = warn
-  warnings.filterwarnings("ignore", category=DeprecationWarning) 
+  # def warn(*args, **kwargs):
+  #   pass
+  # import warnings
+  # warnings.warn = warn
+  # warnings.filterwarnings("ignore", category=DeprecationWarning) 
   
   jobname = id
   
   print("New process started", jobname, file=sys.stderr)	
-  import os
-  import os.path
-  import re
-  import hashlib
+
 
   def add_hash(x,y):
     return x+"_"+hashlib.sha1(y.encode()).hexdigest()[:5]
@@ -365,6 +378,10 @@ def main():
     # check if the file already exists
     if os.path.exists(os.path.join(OUT_DIR, f"{seq_id}.npy")):
       print(f"Skipping {seq_id} because already exists", file=sys.stderr, flush=True)
+      continue
+
+    if len(seqrecord.seq) > 250:
+      print(f"Skipping {seq_id} because sequence is too long", file=sys.stderr, flush=True)
       continue
 
     seq_string = str(seqrecord.seq)
